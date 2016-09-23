@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1215px;
+    margin: 0 auto;
+    box-shadow: grey 0 0 30px 0;
+    font-family: Tahoma, sans-serif;
+}
+
+header {
+    height: 36px;
+    width: 1215px;
+    background: #08579a;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+ul {
+    float: right;
+    position: relative;
+    margin-right: 14px;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+}
+
+.nav li a {
+    display: block;
+    text-decoration: none;
+    color: #5cafe7;
+    padding: 0 14px;
+    font: 14px Tahoma, Arial sans-serif;
+    line-height: 36px;
+}
+
+.nav li a:hover {
+    background: #4eabda;
+    color: white;
+}
+
+a span {
+    text-decoration: underline;
+}
+
+.nav_min, .nav_ola {
+    position: relative;
+    color: white !important;
+}
+
+.nav_ola {
+    background: linear-gradient(to top, #2e7ac4, #51b1dc);
+}
+
+.nav_min:after {
+    content: '';
+    height: 28px;
+    border-right: 1px solid #56a2dc;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+.content {
+    background: url("../img/Background%20copy.png") no-repeat;
+    width: 1215px;
+    height: 1028px;
+    position: relative;
+}
+
+.signin {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+    color: white;
+}
+
+.signtitle {
+    background: rgba(0, 0, 0, 0.63);
+    font-size: 24px;
+    line-height: 62px;
+    text-align: center;
+}
+
+.signform {
+    margin-top: 2px;
+    background: rgba(0, 0, 0, 0.63);
+    text-align: center;
+    color: #cccccc;
+}
+
+.facebook {
+    padding-top: 36px;
+}
+
+.fbimg {
+    vertical-align: bottom;
+}
+
+.separator {
+    width: 276px;
+    box-sizing: border-box;
+    padding: 30px 0 20px 0;
+    margin: 0 auto;
+}
+
+.separator h3 {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+}
+
+h3:before, h3:after {
+    content: '';
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    background: #000;
+    border-top: 1px solid grey;
+    height:1px;
+    overflow:hidden;
+}
+
+.separator h3:before {
+    right: 4px;
+    margin-left: -100%;
+}
+
+.separator h3:after {
+    left: 4px;
+    margin-right: -100%;
+}
+
+.form_in {
+    width: 276px;
+    margin: 0 auto;
+    font: 14px Tahoma, Arial, sans-serif;
+
+}
+
+.form_inin {
+    width: 255px;
+    padding: 10px 0 10px 19px;
+    float: left;
+    margin: 8px 0;
+    background: #000;
+    border: 1px solid black;
+    border-bottom-color: grey;
+    color: white;
+}
+
+.check {
+    float: left;
+    margin: 10px 0 13px;
+}
+
+.checkAndRadio {
+    margin: 0;
+    padding: 0;
+    width: 16px;
+    height: 15px;
+//width: 12px; /* хак для ие6 и 7 */
+}
+
+.account {
+    background: linear-gradient(to top, #2e7ac4 36%, #50aedb);
+    margin: 10px;
+    padding: 9px;
+    border-radius: 2px;
+    border: 1px solid #67c6e6;
+}
+
+p {
+    font-size: 11px;
+    padding: 10px;
+}
+
+input.form_inin:hover {
+    -webkit-box-shadow: 0 0 15px 0 rgba(6,178,201,1);
+    -moz-box-shadow: 0 0 15px 0 rgba(6,178,201,1);
+    box-shadow: 0 0 15px 0 rgba(6,178,201,1);
+}
+
+input.form_inin:focus, input.form_inin:active {
+    background: #1b5288;
+    color: white;
+}
+
+input.account:active {
+    background: linear-gradient(to bottom, #2e7ac4 36%, #50aedb);
+}

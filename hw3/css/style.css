@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f9f9f9;
+}
+
+.box {
+    width: 1366px;
+    margin: auto;
+    background: white;
+    -webkit-box-shadow: 0 0 10px grey;
+    -moz-box-shadow: 0 0 10px grey;
+    box-shadow: 0 0 10px grey;
+}
+
+.inbox {
+    margin: 0 48px;
+}
+
+img {
+    margin: 50px 0 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    letter-spacing: -12px;
+    font-size : 0;
+    background: rgba(94, 94, 94, 1);
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.nav li {
+    font: 20px opensans, sans-serif;
+    letter-spacing: normal;
+    display: inline-block;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav a {
+    color: white;
+    display: block;
+    padding: 13px 30px;
+}
+
+.nav li:hover {
+    content: '';
+    display: inline-block;
+    letter-spacing: normal;
+
+    background: rgba(74, 74, 74, 1);
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.leftmenu {
+    width: 30%;
+    float: left;
+    margin: 40px 0;
+    border: 1px solid #c8c8c8;
+    border-bottom: 0 solid #c8c8c8;
+    font: 10pt opensans, sans-serif;
+}
+
+.leftmenu li {
+    display: block;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.leftmenu a {
+    color: #656363;
+    display: block;
+    padding: 13px 30px;
+}
+
+.leftmenu li:hover {
+    padding-left: 40px;
+    background-color: #f9f9f9;
+}
+
+.leftmenu a:hover {
+    color: black;
+}
+
+.content {
+    width: 65%;
+    margin-top: 40px;
+    margin-left: 50px;
+    float: left;
+}
+
+.bike {
+    display: inline-block;
+    border: 1px solid #c8c8c8;
+    width: 100%;
+}
+
+.bike img {
+    display: block;
+    margin: auto;
+    padding: 50px;
+}
+
+.textik {
+    padding: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+    letter-spacing: -12px;
+    font-size : 0;
+    background: #e1e1e1;
+    color: #2c2c2c;
+}
+
+.footer li {
+    font: 16px opensans, sans-serif;
+    letter-spacing: normal;
+    display: inline-block;
+
+}
+
+.footer a {
+
+    display: block;
+    padding: 13px 30px;
+
+
+}
+
+.footer li:hover {
+    content: '';
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.prosto {
+    height: 30px;
+}
+
+.rights {
+    float: right;
+    margin: 15px;
+}
+
+.rights a:hover {
+    text-decoration: none;
+}
